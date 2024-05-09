@@ -3,13 +3,13 @@ package main
 import (
 	"log"
 
-	"github.com/hrisz/ws-haris2024/config"
+	"github.com/hrisz/BP_UTS_WebService/config"
 
 	"github.com/aiteung/musik"
 	"github.com/gofiber/fiber/v2/middleware/cors"
 
 
-	"github.com/hrisz/ws-haris2024/url"
+	"github.com/hrisz/BP_UTS_WebService/url"
 
 	"github.com/gofiber/fiber/v2"
 )

@@ -6,8 +6,7 @@ require (
 	github.com/aiteung/atdb v0.1.7
 	github.com/aiteung/musik v0.0.5
 	github.com/gofiber/fiber/v2 v2.52.4
-	github.com/hrisz/ws-haris2024 v0.0.0-20240426075735-e5c55545b3bb
-	github.com/indrariksa/cobapakcage v0.0.6
+	github.com/hrisz/BE_UTS_WebService v0.0.0-20240509030655-aa7d51e1b769
 	github.com/whatsauth/whatsauth v0.2.9
 	go.mau.fi/whatsmeow v0.0.0-20240507080416-01b0547014dc
 	go.mongodb.org/mongo-driver v1.15.0

@@ -1,7 +1,7 @@
 package url
 
 import (
-	"github.com/hrisz/ws-haris2024/controller"
+	"github.com/hrisz/BP_UTS_WebService/controller"
 
 	"github.com/gofiber/fiber/v2"
 )
@@ -18,7 +18,7 @@ func Web(page *fiber.App) {
 	page.Options("/", controller.Sink)
 
 	page.Get("/checkip", controller.Homepage)
-	page.Get("/presensi", controller.GetPresensi)
-	page.Get("/presensi/:id", controller.GetPresensiID) //menampilkan data presensi berdasarkan id
+	page.Get("/animeid", controller.GetAnimeData)
+	// page.Get("/animeid/:id", controller.GetAnimeWithID) //menampilkan data presensi berdasarkan id
 
 }
