@@ -6,6 +6,6 @@ var Iteung = fiber.Config{
 	Prefork:       false,
 	CaseSensitive: true,
 	StrictRouting: true,
-	ServerHeader:  "Iteung",
+	ServerHeader:  "UTS WebService",
 	AppName:       "Message Router",
 }
