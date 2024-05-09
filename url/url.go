@@ -19,6 +19,6 @@ func Web(page *fiber.App) {
 
 	page.Get("/checkip", controller.Homepage)
 	page.Get("/animeid", controller.GetAnimeData)
-	// page.Get("/animeid/:id", controller.GetAnimeWithID) //menampilkan data presensi berdasarkan id
+	page.Get("/animeid/:id", controller.GetAnimeWithID)
 
 }
